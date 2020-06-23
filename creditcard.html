@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="stylefinal.css" />
+  <script src="creditcard.js" type="module"></script>
+</head>
+
+<body>
+   <header>
+      <!-- Banner informativo-->
+      <div id="box">
+         <div class="info info1"><span>Linea de atención: <strong>01-8000-6534</strong></span></div>
+         <div class=" info info2"><span><img src="imagenes/whatsappverde.png" width="16px" height="16px"
+                  alt="iconowhatsapp">WhatsApp:<strong> 3142127854</strong></span></div>
+         <div class=" info info3"><span><img src="imagenes/corazon.png" width="18px" height="16px"
+                  alt="iconocorazon">Somos una empresa colombiana </span></div>
+      </div>
+   </header>
+  <main>
+     
+   <!--contenedor imagen tarjeta-->
+   <div class="contenedortarjeta">
+
+   <img src="imagenes/imagen-tarjetacredito.png" class="img-tarjeta"><br>
+   </div>
+   
+   <!---<p> con id para imprimir un valor desde js-->
+   <p id="resultadofinal"></p>
+
+    <div class="formulario">
+    <label for="nombre">Nombre:</label><input type="text" id="nombre"></input><br>
+    <label for="apellido">Apellido:</label><input type="text" id="apellido"></input><br>
+    <label for="email">Email:</label><input type="email:" id="email"></input><br>
+    <label for="tarjetaCredito">Número de tarjeta de crédito:</label><input type="text" id="tarjetaCredito"></input><br>
+    <label for="codigoSeguridad">Código de seguridad:</label><input type="text" id="codigoSeguridad"></input><br>
+    <input type="button" id="validar" value="Validar">
+   </div>
+</main>
+
+
+   <!--pie de pagina-->
+   <footer class="piepage">
+    <!--redes sociales-->
+    <div class="totalredes">
+       <p>Unete a nuestra comunidad:</p>
+
+       <div class="redessociales facebook"><img src="imagenes/facebook.png" width="24px" height="24px" alt="facebook">
+          <a class=logoface href="https://facebook.com/" target="_blank"></a></div>
+
+       <div class="redessociales instagram"><img src="imagenes/instagram.png" width="24px" height="24px"
+             alt="instagram"><a class=logoinstagram href="https://www.instagram.com/"
+             target="_blank"></a></div>
+
+       <div class="redessociales twitter"><img src="imagenes/tweet.png" width="24px" height="24px" alt="tweet">
+          <a class=logotwitter href="https://twitter.com/" target="_blank"></a></div>
+
+       <div class="redessociales whatsapp"><img src="imagenes/whatsapp.png" width="24px" height="24px" alt="tweet">
+          <a class=logowhatsapp href="https://wa.link/2mfwkj" target="_blank"></a></div>
+
+    </div>
+
+
+    <!--Logos gov-->
+
+    <div class="empresasapoyan">
+       <p>Apoyado por:</p>
+       <div class="apoyapres"><img src="imagenes/logopresidenciacol.png" width="234px" heigth="50px"alt="logopresidencia"></div>
+       <div class="apoyavivecolombia"><img src="imagenes/logovivecolombiaviaj.png" width="176px" heigth="50px"alt="logovivecolombia"></div>
+       <div class="apoyasuperindustriaycio"><img src="imagenes/superindustriaycio.png" width="230px" heigth="50px"alt="logosuperintendencia">
+       </div>
+    </div>
+ </footer>
+</body>
+</html>
