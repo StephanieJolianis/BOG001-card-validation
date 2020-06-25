@@ -37,30 +37,30 @@ Luego de revisar los principios basicos de diseño se decide cambiar la cantidad
 Objetivos de aprendizaje:
 
 UX
- (S) Diseñar la aplicación pensando y entendiendo al usuario 
- (S) Crear prototipos para obtener feedback e iterar
- (S) Aplicar los principios de diseño visual
+ - (S) Diseñar la aplicación pensando y entendiendo al usuario 
+ - (S) Crear prototipos para obtener feedback e iterar
+ - (S) Aplicar los principios de diseño visual
 HTML y CSS
- (S) Uso correcto de HTML semántico
- (S) Uso de selectores de CSS
- (S) Construir tu aplicación respetando el diseño realizado (maquetación).
+ - (S) Uso correcto de HTML semántico
+ - (S) Uso de selectores de CSS
+ - (S) Construir tu aplicación respetando el diseño realizado (maquetación).
 DOM
- (S) Uso de selectores de nodos del DOM
- (S) Manejo de eventos del DOM
- (S) Manipulación dinámica del DOM
+ - (S) Uso de selectores de nodos del DOM
+ - (S) Manejo de eventos del DOM
+ - (S) Manipulación dinámica del DOM
 Javascript
- (S) Manipulación de strings
- (S) Uso de condicionales
- (S) Uso de bucles
- (S) Uso de funciones
- (S) Datos atómicos y estructurados
- (S) Utilizar ES Modules (import | export).
+ - (S) Manipulación de strings
+ - (S) Uso de condicionales
+ - (S) Uso de bucles
+ - (S) Uso de funciones
+ - (S) Datos atómicos y estructurados
+ - (S) Utilizar ES Modules (import | export).
 Testing
- (N) Testeo de tus funciones
+ - (N) Testeo de tus funciones
 Git y GitHub
- (S) Comandos de git (add | commit | pull | status | push).
- (S) Manejo de repositorios de GitHub (clone | fork | gh-pages).
+ - (S) Comandos de git (add | commit | pull | status | push).
+ - (S) Manejo de repositorios de GitHub (clone | fork | gh-pages).
 Buenas prácticas de desarrollo
- (S) Organizar y dividir el código en módulos (Modularización).
- (N) Uso de identificadores descriptivos (Nomenclatura | Semántica).
- (N) Uso de linter para seguir buenas prácticas (ESLINT).
+ - (S) Organizar y dividir el código en módulos (Modularización).
+ - (N) Uso de identificadores descriptivos (Nomenclatura | Semántica).
+ - (N) Uso de linter para seguir buenas prácticas (ESLINT).
